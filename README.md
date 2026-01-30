@@ -1,16 +1,14 @@
-# f_to_c
+# Temperature Converter (Flutter)
 
-A new Flutter project.
+A clean, responsive temperature conversion app built with Flutter.
 
-## Getting Started
+## Features
+* **Live Two-Way Sync:** Update Celsius to see Fahrenheit instantly, and vice versa.
+* **Input Validation:** Error handling for invalid characters or empty fields.
+* **Adaptive Theming:** Automatically switches between Light and Dark mode based on system settings.
+* **Modern Android Config:** Uses Kotlin DSL (`build.gradle.kts`) and custom launcher icons.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+1. Ensure Flutter is installed.
+2. Connect a device (USB or Wireless ADB).
+3. Run `flutter run`.
